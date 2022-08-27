@@ -1,0 +1,16 @@
+.titular{
+    color: blue;
+    font-size: 20px;
+}
+
+#whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#sticky{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
