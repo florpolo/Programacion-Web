@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+}
+
+.header{
+    margin: 0px;
+    padding: 10px;
+    background-color: blue;
+    display: flex;
+    height: 100px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div1{
+    display: grid;
+    margin-left: 50px;
+}
+
+.grid-item {
+    text-align: center;
+    
+    font-size: 20px;
+}
+
+.item1{
+    grid-column: 2;
+    color: azure;
+    
+}
+.item2{
+    grid-column: 2;
+    color: azure;
+    font-weight: 700;
+}
+.item3 {
+    grid-row: 1 / span 2;
+    grid-column: 1;
+    margin-right: 10px;
+    
+}
+
+.div2{
+    margin-right: 50px;
+}
+
+#logoboca{
+    height: 70px;
+}
+
+#logoadidas{
+    height: 50px;
+}
+
+li{
+    display: inline;
+    margin: 10px;
+}
+
+.menu{
+    background-color: darkblue;
+    margin: 0px;
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+.item{
+    color: azure;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.div3{
+    margin-right: 50px;
+
+}
+
+.material-symbols-outlined{
+    color: azure;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media (max-width:500px){
+    .menu{
+        display: none;
+    }
+    .container{
+        display: block;
+    }
+}
+
+.footer{
+    width:100%;
+    
+    background-color: rgb(45, 46, 53);
+    
+}
+
+.box{
+    margin:auto;
+    display: flex;
+    padding: 45px 0px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h2{
+    color: azure;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: medium;
+}
+
+.red-social a{
+    text-decoration: none;
+    color: azure;
+    margin-right: 10px;
+
+}
