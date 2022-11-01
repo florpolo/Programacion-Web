@@ -72,8 +72,10 @@ header{
 }
 
 .card{
+    
     margin: 0px auto;
     margin-top: 10px;
+    
 }
 
 .main{
@@ -104,13 +106,14 @@ h3{
 
 .footer-icons{
     display: flex;
+    
     justify-content: space-between;
     padding-right: 0px;
     padding-left: 100px;
     box-sizing: border-box;
     
     
-}
+} 
 
 .icon{
     width: 38px;
