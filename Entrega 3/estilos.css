@@ -172,3 +172,9 @@ h1{
         padding-left: 0px;
     }
 }
+
+@media (max-width: 576px){
+    .navbar-brand{
+        display: none;
+    }
+}
