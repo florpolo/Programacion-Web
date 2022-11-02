@@ -44,6 +44,7 @@ header{
     color: black;
 }
 
+
 .nav-link:hover{
     color: deeppink;
 }
@@ -66,14 +67,14 @@ header{
     border-color: deeppink;
 }
 
-.container-productos{
-    padding: 10px;
-}
+
 
 .card{
     
     margin: 0px auto;
     margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
     
 }
 
@@ -151,7 +152,7 @@ a{
     top: 0;
 }
 
-.product{
-    text-align: center;
+nav{
+    background-color: white;
 }
 
