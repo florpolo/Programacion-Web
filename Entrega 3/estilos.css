@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 5px;
 }
 
 
@@ -46,7 +46,7 @@ header{
 
 
 .nav-link:hover{
-    color: deeppink;
+    color: deeppink!important;
 }
 
 .contenedor{
@@ -156,3 +156,18 @@ nav{
     background-color: white;
 }
 
+.mt-3{
+    margin-top: 0px!important;
+}
+
+h1{
+    font-size: large;
+    color: deeppink;
+    
+}
+
+@media (max-width: 768px){
+    .footer-icons{
+        display: inline;
+    }
+}
