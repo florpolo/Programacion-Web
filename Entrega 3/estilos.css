@@ -174,7 +174,7 @@ h1{
 }
 
 @media (max-width: 576px){
-    .navbar-brand{
+    #brand{
         display: none;
     }
 }
