@@ -178,3 +178,7 @@ h1{
         display: none;
     }
 }
+
+#carouselExampleSlidesOnly{
+    margin-top: 96px;
+}
