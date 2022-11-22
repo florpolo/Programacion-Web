@@ -57,17 +57,20 @@ header{
 }
 
 .btn{
+    
     background-color: deeppink;
     border-color: deeppink;
     color: azure;
 }
 
 .btn:hover{
-    background-color: deeppink;
-    border-color: deeppink;
+    background-color: deeppink!important;
+    border-color: deeppink!important;
 }
 
-
+.carrito{
+    margin-top: 10px;
+}
 
 .card{
     
