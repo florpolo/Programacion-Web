@@ -81,6 +81,10 @@ header{
     
 }
 
+.col{
+    height: 100%;
+}
+
 .main{
     padding: 20px;
 }
@@ -185,3 +189,5 @@ h1{
 #carouselExampleSlidesOnly{
     margin-top: 96px;
 }
+
+
